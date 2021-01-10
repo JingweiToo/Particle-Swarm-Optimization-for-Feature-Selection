@@ -1,26 +1,30 @@
 # Particle Swarm Optimization for Feature Selection
 
+[![View Particle Swarm Optimization for Feature Selection on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/78802-particle-swarm-optimization-for-feature-selection)
+[![License](https://img.shields.io/badge/license-BSD_3-yellow.svg)](https://github.com/JingweiToo/Particle-Swarm-Optimization-for-Feature-Selection/blob/main/LICENSE)
+[![GitHub release](https://img.shields.io/badge/release-1.1-green.svg)](https://github.com/JingweiToo/Particle-Swarm-Optimization-for-Feature-Selection)
+
 ![Wheel](https://www.mathworks.com/matlabcentral/mlc-downloads/downloads/149c8b02-a35c-4c8d-85e4-f156ee3b9404/f18c8f23-7f53-45f8-b833-1891b718dc9e/images/1596418985.JPG)
 
 ## Introduction
 * This toolbox offers a Particle Swarm Optimization (PSO) method
-* The < Main.m file > illustrates the example of how PSO can solve the feature selection problem using benchmark data-set.
+* The `Main` file illustrates the example of how PSO can solve the feature selection problem using benchmark data-set.
 
 ## Input
-* *feat*     : feature vector ( Instances *x* Features )
-* *label*    : label vector ( Instances *x* 1 )
-* *N*        : number of particles
-* *max_Iter* : maximum number of iterations
-* *c1*       : Cognitive factor
-* *c2*       : Social factor
-* *w*        : Inertia weight
+* *`feat`*     : feature vector ( Instances *x* Features )
+* *`label`*    : label vector ( Instances *x* 1 )
+* *`N`*        : number of particles
+* *`max_Iter`* : maximum number of iterations
+* *`c1`*       : Cognitive factor
+* *`c2`*       : Social factor
+* *`w`*        : Inertia weight
 
 
 ## Output
-* *sFeat*    : selected features
-* *Sf*       : selected feature index
-* *Nf*       : number of selected features
-* *curve*    : convergence curve
+* *`sFeat`*    : selected features
+* *`Sf`*       : selected feature index
+* *`Nf`*       : number of selected features
+* *`curve`*    : convergence curve
 
 ### Example
 ```code
